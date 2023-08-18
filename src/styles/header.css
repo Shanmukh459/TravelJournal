@@ -1,0 +1,17 @@
+header {
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 10px;
+}
+
+.globe-header {
+    width:24px;
+    height: 24px;
+}
+
+header p {
+    font-size: 14px;
+}
