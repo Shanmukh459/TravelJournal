@@ -1,4 +1,5 @@
 import React from "react"
+import location from "../assets/images/location.svg"
 
 export default function Body(props) {
     return (
@@ -8,13 +9,18 @@ export default function Body(props) {
             </div>
             <div>
                 <div className="title-location">
-                    <p>{props.item.location}</p>
-                    <a href={props.item.googleMapsUrl}>view on Google Maps</a>
+                    <div className="loactionpin-title">
+                        <img className="location-pin" src={location} />
+                        <p>{props.item.location.toUpperCase()}</p>
+                    </div>
+                    <div>
+                        <a href={props.item.googleMapsUrl}>View on Google Maps</a>
+                    </div>   
                 </div>
                 <div>
                     <h2>{props.item.title}</h2>
-                    <h4>{props.item.startDate}-{props.item.endDate}</h4>
-                    <p>{props.item.description}</p>
+                    <h4>{props.item.startDate} - {props.item.endDate}</h4>
+                    <p className="main-desc">{props.item.description}</p>
                 </div>
                 
             </div> 
