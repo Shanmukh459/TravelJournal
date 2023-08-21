@@ -1,6 +1,6 @@
 # Travel Journal
 
-## This is a assignment project as part of my Front-end (React) learning in Scrimba ((https://scrimba.com/learn/frontend)
+## This is a assignment project as part of my Front-end (React) learning in Scrimba.
 
 1. This a static web page which is built using React, JavaScript, HTML and CSS.
 
@@ -11,3 +11,7 @@
 This is how the application looks:
 
 ![image](https://github.com/Shanmukh459/TravelJournal/assets/52078988/7662358b-53bc-4087-89a7-d55e83173977)
+
+
+Here is the link to the course:
+ - https://scrimba.com/learn/frontend
