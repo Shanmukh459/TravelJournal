@@ -1,8 +1,9 @@
-# React + Vite
+# Travel Journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## This is a assignment project as part of my Front-end (React) learning in Scrimba
 
-Currently, two official plugins are available:
+1. This a static web page which is built using React, JavaScript, HTML and CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. The main focus of this project is to implement the props concept from React and render them using map.
+
+3. The data here is coming from a data.jsx file instead of hardcoding the text.
